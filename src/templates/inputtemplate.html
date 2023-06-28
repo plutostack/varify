@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varify Input Template</title>
+</head>
+<body>
+    <div id="test">
+        <input id="in"><button id="click">Change</button>
+        <br>
+        ${output}
+    </div>
+
+    <script type="module">
+        import init from './varify.js';
+
+        let button = document.getElementById('click');
+        button.addEventListener('click', function(evt) {
+          init("#test", {output: document.getElementById('in').value});   
+        });
+    </script>
+</body>
+</html>
