@@ -5,3 +5,17 @@ Varify is a 189 bytes javascript framework for rendering variables in native htm
 * **Lightweight:** Not enough storage? With Varify this won't be a problem, because we always optimize our framework on time and with each update our framework becomes more functional and more optimized.
 * **Simplicity:** The Varify framework has simple and intuitive features, making it accessible to both experienced developers and programming novices.
 * **Accessibility:** Our framework code is written in browser JavaScript, which means you can interact with the framework anytime, anywhere.
+
+Getting started 🏁
+-----------------------
+
+Importing framework from jsdelivr:
+```html
+<script type="module">
+import init from "https://cdn.jsdelivr.net/gh/plutostack/varify@master/src/versions/0.0.0/varify.min.js";
+</script>
+```
+Next, try to find out templates:
+```
+https://github.com/plutostack/varify/tree/main/src/templates
+```
