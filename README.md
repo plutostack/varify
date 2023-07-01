@@ -13,6 +13,7 @@ Importing framework from jsdelivr:
 ```html
 <script type="module">
 import init from "https://cdn.jsdelivr.net/gh/plutostack/varify@master/src/versions/0.0.0/varify.min.js";
+// your code
 </script>
 ```
 Next, try to find out templates:
